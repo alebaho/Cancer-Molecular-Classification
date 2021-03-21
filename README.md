@@ -1,14 +1,14 @@
 # Cancer-Molecular-Classification
-A study of various ML methods to classify Leukemia from gene expression monitoring.
+A study of various ML methods to classify leukemia from gene expression monitoring.
 
-This study is based on a proof of concept study published in 1999 by Golub et al.<sup>1</sup>  
+This study is based on a proof-of-concept study published in 1999 by Golub et al.<sup>1</sup>  
 The dataset is available at Kaggle : https://www.kaggle.com/crawford/gene-expression#data_set_ALL_AML_independent.csv
 
-Machine learning (ML) has been gaining a lot of popularity in medicine where it helps predict or classify various medical conditions in patients. Leukemia classification has been studied in 1999 by Golub et al. It uses an approach called SOM (self organising maps) which classifies patients having leukemia into acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL), based on gene expression monitoring by DNA microarrays. 
+Machine learning (ML) has been gaining a lot of popularity in medicine where it helps predict or classify various medical conditions in patients. Leukemia classification has been studied in 1999 by Golub et al. It uses an approach called SOM (self-organizing maps) which classifies patients having leukemia into acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL), based on gene expression monitoring by DNA microarrays. 
 
 The attached notebook provides work that helps to answers a question about what type of results we could obtain by using modern ML algorithms. The ML algorithms come from the scikit-learn library to classify the dataset. An alternative method proposed by McClintick and Edenberg<sup>2</sup> is also studied and compared to the ML solutions.
 
-The rsults show that the Random Forest ML algorithm provides the highest ML score. For this reason it was selected as the ML algorithm to complement other, such PCA, Golup et al., etc. The Golup et al. method provides the highest overall score. PCA with random forest gives the fastest time and a lesser score than random forest alone, which is expected. 
+The results show that the Random Forest ML algorithm provides the highest ML score. For this reason it was selected as the ML algorithm to complement other, such PCA, Golup et al., etc. The Golup et al. method provides the highest overall score. PCA with random forest gives the fastest time and a lesser score than random forest alone, which is expected. 
 <br><br>
 
 | Method | Score (%) | Execution Time |
